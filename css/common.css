@@ -1,6 +1,5 @@
 /* Font Style */
 
-/* Font Style */
 @font-face {
    font-family: "genesis-text-office";
    font-weight: 400;
@@ -35,6 +34,11 @@
    font-family: "KFO";
    font-weight: 400;
    src: url(../font/KFOmCnqEu92Fr1Mu4mxK.woff2) format("woff2");
+}
+
+html {
+   font-size: 10px;
+   -webkit-text-size-adjust: none;
 }
 
 body {
