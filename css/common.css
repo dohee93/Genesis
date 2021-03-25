@@ -1,0 +1,43 @@
+/* Font Style */
+
+/* Font Style */
+@font-face {
+   font-family: "genesis-text-office";
+   font-weight: 400;
+   src: url(../font/GenesisSansTextOffice-Regular.woff2) format("woff2");
+}
+
+@font-face {
+   font-family: "genesis-head-office";
+   font-weight: 400;
+   src: url(../font/GenesisSansHeadOffice-Regular.woff2) format("woff2");
+}
+
+@font-face {
+   font-family: "genesis-head-light";
+   font-weight: 400;
+   src: url(../font/GenesisSansHeadKRLight.woff2) format("woff2");
+}
+
+@font-face {
+   font-family: "genesis-head-regular";
+   font-weight: 400;
+   src: url(../font/GenesisSansHeadKRRegular.woff2) format("woff2");
+}
+
+@font-face {
+   font-family: "genesis-text";
+   font-weight: 400;
+   src: url(../font/GenesisSansTextKRRegular.woff2) format("woff2");
+}
+
+@font-face {
+   font-family: "KFO";
+   font-weight: 400;
+   src: url(../font/KFOmCnqEu92Fr1Mu4mxK.woff2) format("woff2");
+}
+
+body {
+   font-family: 'genesis-text', sans-serif;
+   line-height: 1.32;
+}
