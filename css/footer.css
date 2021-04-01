@@ -1,0 +1,350 @@
+.footer {
+   width: 100%;
+   background-color: rgb(17,17,17);
+}
+.footer-info {
+   height: 6rem;
+   border-top: 1px solid #1e1e1e;
+}
+.footer-info .footer-inner {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 100%;
+}
+
+.footer-inner {
+   max-width: 1920px;
+   margin: 0 auto;
+   padding: 0 12rem;
+}
+
+.footer-util {
+   display: flex;
+   align-items: center;
+}
+.footer-util .util-title {
+   font-family: 'genesis-text-office', sans-serif;
+   font-size: 1.6rem;
+   color: #fff;
+   line-height: 1.8rem;
+   display: inline-block;
+}
+.footer-util .util-list {
+   margin-left: 0.6rem;
+}
+.footer-util .util-list .presentation {
+   display: inline-block;
+   position: relative;
+   padding: 0 0.7rem;
+   vertical-align: middle;
+
+}
+.footer-util .util-list .presentation a {
+   display: block;
+}
+.footer-util .util-list .presentation a svg {
+   width: 3rem;
+   height: 3rem;
+   fill: #808080;
+}
+.footer-util .util-list .presentation a:hover svg {
+   fill: #ad7b61;
+}
+.ico-util {
+   padding: 0.7rem;
+}
+.ico-util-url {
+   display: inline-block;
+   width: 1.6rem;
+   height: 1.6rem;
+   background-repeat: no-repeat;
+   background-size: 100% auto;
+   vertical-align: middle;
+   background-image: url(../img/ico-util-url-gray.png);
+}
+.ico-util:hover .ico-util-url {
+   background-image: url(../img/ico-util-url-active.png);
+}
+
+.btn-top {
+   font-family: 'genesis-text-office', sans-serif;
+   font-size: 1.6rem;
+   color: #fff;
+   line-height: 1.8rem;
+}
+.btn-top:after {
+   display: inline-block;
+   position: relative;
+   width: 1.1rem;
+   height: 0.7rem;
+   margin-left: 1rem;
+   background-image: url(../img/ico-arrow-top.png);
+   background-repeat: no-repeat;
+   background-size: 100% auto;
+   vertical-align: middle;
+   content: '';
+}
+
+
+.footer-notice {
+   border-top: 1px solid #1e1e1e;
+}
+.footer-notice .footer-inner {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.footer-notice-list {
+   position: relative;
+   width: 100%;
+   height: 7.7rem;
+}
+.footer-notice-link {
+   font-size: 1.4rem;
+   display: block;
+   padding: 3.1rem 1.5rem 3.1rem 0;
+   color: #fff;
+   line-height: 1.125;
+}
+.footer-notice-link .text-notice{
+   float: left;
+   padding-right: 0.4rem;
+}
+.footer-notice-controller {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-basis: 8.4rem;
+}
+.footer-notice-controller .btn-controls {
+   padding: 1rem;
+}
+.footer-notice-controller .btn-prev {
+   margin-left: -10px;
+}
+.footer-notice-controller .btn-next {
+   margin-right: -10px;
+}
+
+.footer-notice-controller .btn-controls:after {
+   display: block;
+   width: 1.1rem;
+   height: 1.1rem;
+   background-repeat: no-repeat;
+   background-size: 100% auto;
+   content: '';
+}
+
+.footer-notice-controller .btn-pause:after {
+   background-image: url(../img/ico-pause-white-type2.png);
+}
+.footer-notice-controller .btn-next:after {
+   transform: rotate(-180deg);
+}
+
+.footer-notice-controller .btn-prev:after,
+.footer-notice-controller .btn-next:after {
+   width: 0.7rem;
+   background-image: url(../img/ico-arrow-white.png);
+}
+
+
+.footer-top {
+   background-color: #151515;
+}
+.footer-sitemap {
+   padding: 5.5rem 0 9.6rem;
+}
+.footer-sitemap .footer-sitemap-item {
+   display: inline-block;
+   width: 24%;
+   min-height: 26rem;
+   padding: 4.1rem 4rem 0 0;
+   vertical-align: top;
+}
+.footer-sitemap .sitemap-title,
+.footer-sitemap .sitemap-title a {
+   font-weight: 400;
+   color: #fff;
+   line-height: 1.2;
+   font-family: 'genesis-head-office', sans-serif;
+   font-size: 1.8rem;
+}
+.footer-sitemap .sitemap-title {
+   font-family: 'genesis-head-regular', sans-serif;
+   font-size: 1.6rem;
+}
+.sitemap-list {
+   margin-top: 2.1rem;
+}
+.sitemap-list .sitemap-item {
+   margin-top: 1.4rem;
+}
+.sitemap-list .sitemap-item a {
+   font-size: 1.4rem;
+   display: block;
+   color: #ccc;
+   line-height: 1.6;
+
+}
+
+.footer-row-top {
+   padding: 2.4rem 0;
+}
+.footer-row-top .footer-inner {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.footer-regal .footer-regal-list {
+   display: inline-block;
+   margin-left: -4.8rem;
+}
+.footer-regal .footer-regal-item.point a {
+   color: #ad7b61;
+}
+.footer-regal-item {
+   display: inline-block;
+   position: relative;
+   margin-left: 4.8rem;
+}
+.footer-regal-item:before {
+   display: inline-block;
+   position: absolute;
+   right: -2.4rem;
+   height: 1.5rem;
+   border-right: 1px solid #1e1e1e;
+   content: '';
+}
+.footer-regal-item a {
+   font-size: 1.4rem;
+   display: inline-block;
+   color: #ccc;
+   line-height: 1;
+}
+.footer-regal-item:nth-child(7):before {
+   display: none;
+}
+
+
+.sns-list {
+   padding: 0 1rem;
+}
+.sns-item {
+   margin-left: 1.2rem;
+   display: inline-block;
+}
+.sns-item:first-child {
+   margin-left: 0;
+}
+.sns-link {
+   display: block;
+   width: 4.2rem;
+   height: 4.2rem;
+}
+.sns-link svg {
+   fill : #ad7b61;
+   width: 100%;
+   height: 100%;
+}
+
+
+.footer-row-middle {
+   padding: 3.2rem  0 3.1rem;
+}
+.footer-row-middle .footer-inner {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.footer-row-middle,
+.footer-row-bottom {
+   border-top: 1px solid #1e1e1e;
+}
+.footer-row-middle .footer-family {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.footer-family-list {
+   margin-left: -4.8rem;
+   padding-top: 0.4rem;
+}
+.footer-family-item {
+   display: inline-block;
+   margin-left: 4.8rem;
+}
+.footer-family-item .cm-btn-text {
+   font-family: 'genesis-text', sans-serif;
+   font-size: 1.4rem;
+   color: #fff;
+}
+.footer-family-item .cm-btn-text:before {
+   content: '';
+   display: inline-block;
+   margin-right: 0.8rem;
+   background-repeat: no-repeat;
+   background-size: 100% auto;
+   vertical-align: middle;
+
+   margin-top: 1px;
+   width: 1.4rem;
+   height: 1.4rem;
+   background-image: url(../img/ico-new-window.png);
+}
+.footer-family-item:last-child .cm-btn-text:before {
+   background-image: url(../img/ico-worldwide.png);
+}
+.footer-family-item:hover .cm-btn-text {
+   color: #ad7b61;
+}
+.footer-lang-cta {
+   display: inline-block;
+   font-family: 'genesis-text-office', sans-serif;
+}  
+.footer-lang-cta a {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-width: 8rem;
+   height: 3.6rem;
+   padding: 1.1rem;
+   background-color: #1e1e1e;
+   font-size: 1.4rem;
+   color: #fff;
+}
+
+.footer-lang-cta.is-selected a {
+   background-color: #ad7b61;
+}
+
+.footer-copyright {
+   padding: 5.5rem 0 5.3rem;
+   text-align: center;
+}
+.footer-copyright-logo img {
+   width: 13.3rem;
+}
+.footer-copyright-text {
+   margin-top: 2.6rem;
+}
+.footer-copyright-text p {
+   font-family: 'genesis-text-office', sans-serif;
+   line-height: 1.571;
+   font-size: 1.4rem;
+   color: #ccc;
+}
+
+
+
+
+@media screen and (max-width: 1920px) {
+   .footer-info-inner {
+      padding: 0 12rem;
+   }
+
+   
+}
+

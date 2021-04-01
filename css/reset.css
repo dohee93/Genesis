@@ -12,6 +12,7 @@ ul, ol, li {
 
 a { 
    outline: none;
+   text-decoration: none;
 }
 
 div, ul, li {
@@ -22,4 +23,10 @@ div, ul, li {
 
 h1, h2, h3, h4, h5, h6, p, div, a { 
    word-break: keep-all; 
+}
+
+button {
+   border: none;
+   background: none;
+   cursor: pointer;
 }
