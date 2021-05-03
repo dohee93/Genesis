@@ -1,32 +1,44 @@
-* { 
-   padding: 0; 
-   margin: 0; 
-   box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-ul, ol, li { 
-   list-style: none;
-   padding: 0;
-   margin: 0;
+ul,
+ol,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-a { 
-   outline: none;
-   text-decoration: none;
+a {
+  outline: none;
+  text-decoration: none;
 }
 
-div, ul, li {
-   background-size: cover;
-   background-position: center center;
-   background-repeat: no-repeat;
+div,
+ul,
+li {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
-h1, h2, h3, h4, h5, h6, p, div, a { 
-   word-break: keep-all; 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+a {
+  word-break: keep-all;
 }
 
 button {
-   border: none;
-   background: none;
-   cursor: pointer;
+  border: 0;
+  background: none;
+  cursor: pointer;
 }
