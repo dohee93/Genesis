@@ -151,6 +151,7 @@
   background: #111;
   color: #fff;
 }
+
 .cm-btn.type-white .masker:after {
   position: absolute;
   top: 0;
@@ -167,7 +168,18 @@
   right: 0;
   bottom: 0;
   z-index: 10;
+  transition: height 0.4s;
   height: 0;
+  background: #fff;
+  color: #111;
+}
+.cm-btn .masker span {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 5.6rem;
+  line-height: 5.6rem;
 }
 .main-visual__cta .cm-btn {
   margin-left: 2rem;
