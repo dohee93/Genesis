@@ -63,7 +63,6 @@ isPlay.addEventListener('click', function(){
 
 // bullet active 클래스 추가/제거 및 슬라이드 이동 함수
 function moveToSlide(currentIdx, prevIdx) {
-   console.log(currentIdx, prevIdx);
    if(currentIdx == -1) currentIdx = slideCount - 1;
    else if(currentIdx == slideCount) currentIdx = 0;
 
@@ -78,3 +77,13 @@ function moveToSlide(currentIdx, prevIdx) {
       autoSlide();
    }, 5000);
 }
+
+
+// Genesis Video Play JS
+let iconPlay = document.querySelector('.icon-play'),
+   videoFrame = document.querySelector('.video__frame');
+console.log(iconPlay);
+iconPlay.addEventListener('click', function(){
+   videoFrame.classList.add('active');
+   videoFrame.attributes.allows = 'autoplay';
+});
