@@ -431,3 +431,113 @@ button.swiper-pagination-bullet {
   height: 100%;
   vertical-align: top;
 }
+
+.image-links {
+  padding-bottom: 24rem;
+}
+.image-links__inner {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.image-links__list {
+  display: flex;
+}
+.image-links__item {
+  width: 50%;
+  vertical-align: top;
+}
+.image-links__item-inner {
+  position: relative;
+  overflow: hidden;
+}
+.image-links__item-inner:before {
+  content: "";
+  padding-top: 56.25%;
+  display: block;
+}
+.image-links__img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.image-links__img:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.5;
+  content: "";
+}
+.image-links__img img {
+  max-width: 100%;
+  width: 100%;
+}
+.image-links__contents {
+  padding: 4.1rem 30.4rem 4.1rem 5rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  color: white;
+}
+.image-links__title {
+  font-family: "genesis-head-light", sans-serif;
+  font-size: 4.2rem;
+  display: block;
+  font-weight: normal;
+  letter-spacing: -0.021em;
+  line-height: 5rem;
+  text-shadow: 0px 0px 3px rgb(0 0 0 / 10%);
+}
+.image-links__desc {
+  margin-top: 1.4rem;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  text-shadow: 0px 0px 3px rgb(0 0 0 / 10%);
+}
+.image-links__btn-more {
+  display: inline-block;
+  padding-right: 1.5rem;
+  margin-top: 2.1rem;
+  color: #fff;
+  text-shadow: 0px 0px 3px rgb(0 0 0 / 10%);
+  font-size: 1.6rem;
+  font-family: "genesis-text";
+  padding-bottom: 0.2rem;
+  position: relative;
+}
+.image-links__btn-more span {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 0.4rem;
+}
+.image-links__btn-more span:before {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 1px;
+  width: 100%;
+  height: 1px;
+  background: #fff;
+  content: "";
+}
+.image-links__btn-more:after {
+  position: absolute;
+  top: -0.8rem;
+  right: 1px;
+  bottom: 0;
+  width: 0.7rem;
+  height: 0.7rem;
+  margin: auto 0;
+  border: 2px solid #ad7b61;
+  border-width: 2px 2px 0 0;
+  transform: rotate(45deg) scale(0.8);
+  content: "";
+}
+.image-links__item:first-child {
+  margin-right: 40px;
+}
