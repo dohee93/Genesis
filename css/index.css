@@ -541,3 +541,56 @@ button.swiper-pagination-bullet {
 .image-links__item:first-child {
   margin-right: 40px;
 }
+
+/* Genesis Event CSS */
+.genesis-event {
+  width: 100%;
+  padding-bottom: 24rem;
+}
+.genesis-event-inner {
+  position: relative;
+  max-width: 2560px;
+  margin: 0 auto;
+}
+.genesis-event__img img {
+  height: 50vw;
+  max-height: 1080px;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.genesis-event__content {
+  margin: 0 12rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #fff;
+}
+.genesis-event__content .content-inner {
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 39.926%;
+  position: absolute;
+  text-shadow: 0px 0px 3px rgb(0 0 0 / 10%);
+}
+.genesis-event__title {
+  margin-bottom: 4.1rem;
+  font-size: 5.4rem;
+  line-height: 1.148;
+  font-family: "genesis-head-light";
+  font-weight: 400;
+  letter-spacing: -0.025em;
+}
+.genesis-event__subtitle {
+  margin-top: 4.8rem;
+  margin-bottom: 1.6rem;
+  font-size: 2.6rem;
+  font-family: "genesis-head-light";
+  display: block;
+  line-height: 3.2rem;
+  font-weight: 400;
+  letter-spacing: -0.025em;
+}
